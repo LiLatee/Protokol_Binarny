@@ -8,7 +8,7 @@
 #define MY_PORT 3490   // port, z którym bêd¹ siê ³¹czyli u¿ytkownicy
 #define BACK_LOG 10     //jak du¿o mo¿e byæ oczekuj¹cych po³¹czeñ w kolejce
 #define MAXDATASIZE 100 
-
+//123
 int main()
 {
 	WSADATA wsaData;
