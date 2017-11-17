@@ -1,11 +1,116 @@
-﻿  Klient.cpp
-c:\users\jakub\source\repos\protokol_binarny\klient\klient\klient.cpp(55): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
-c:\users\jakub\source\repos\protokol_binarny\klient\klient\klient.cpp(101): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\jakub\source\repos\protokol_binarny\klient\klient\klient.cpp(192): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\jakub\source\repos\protokol_binarny\klient\klient\klient.cpp(206): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\jakub\source\repos\protokol_binarny\klient\klient\klient.cpp(220): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\jakub\source\repos\protokol_binarny\klient\klient\klient.cpp(234): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\jakub\source\repos\protokol_binarny\klient\klient\klient.cpp(248): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\jakub\source\repos\protokol_binarny\klient\klient\klient.cpp(262): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\jakub\source\repos\protokol_binarny\klient\klient\klient.cpp(280): warning C4804: '>': unsafe use of type 'bool' in operation
-  Klient.vcxproj -> C:\Users\jakub\source\repos\Protokol_Binarny\Klient\x64\Debug\Klient.exe
+﻿  dynamic_bitset.cpp
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(13): error C3646: 'size_type': unknown override specifier
+  c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(119): note: see reference to class template instantiation 'boost::dynamic_bitset<Block,Allocator>' being compiled
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(16): error C3646: 'npos': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(42): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(67): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(80): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(80): error C2805: binary 'operator <<=' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(81): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(81): error C2805: binary 'operator >>=' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(82): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(82): error C2805: binary 'operator <<' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(83): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(83): error C2805: binary 'operator >>' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(85): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(86): error C2535: 'boost::dynamic_bitset<Block,Allocator> &boost::dynamic_bitset<Block,Allocator>::set(void)': member function already defined or declared
+  c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(85): note: see declaration of 'boost::dynamic_bitset<Block,Allocator>::set'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(87): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(88): error C2535: 'boost::dynamic_bitset<Block,Allocator> &boost::dynamic_bitset<Block,Allocator>::reset(void)': member function already defined or declared
+  c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(87): note: see declaration of 'boost::dynamic_bitset<Block,Allocator>::reset'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(89): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(90): error C2535: 'boost::dynamic_bitset<Block,Allocator> &boost::dynamic_bitset<Block,Allocator>::flip(void)': member function already defined or declared
+  c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(89): note: see declaration of 'boost::dynamic_bitset<Block,Allocator>::flip'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(91): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(92): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(97): error C3646: 'count': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(97): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(97): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(99): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(99): error C2805: binary 'operator [' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(100): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(100): error C2805: binary 'operator [' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(104): error C3646: 'size': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(104): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(104): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(105): error C3646: 'num_blocks': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(105): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(105): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(106): error C3646: 'max_size': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(106): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(106): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(108): error C3646: 'capacity': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(108): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(108): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(109): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(116): error C3646: 'find_first': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(116): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(116): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(117): error C3646: 'find_next': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(117): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(117): error C2238: unexpected token(s) preceding ';'
+  Klient.cpp
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(13): error C3646: 'size_type': unknown override specifier
+  c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(119): note: see reference to class template instantiation 'boost::dynamic_bitset<Block,Allocator>' being compiled
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(16): error C3646: 'npos': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(42): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(67): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(80): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(80): error C2805: binary 'operator <<=' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(81): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(81): error C2805: binary 'operator >>=' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(82): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(82): error C2805: binary 'operator <<' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(83): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(83): error C2805: binary 'operator >>' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(85): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(86): error C2535: 'boost::dynamic_bitset<Block,Allocator> &boost::dynamic_bitset<Block,Allocator>::set(void)': member function already defined or declared
+  c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(85): note: see declaration of 'boost::dynamic_bitset<Block,Allocator>::set'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(87): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(88): error C2535: 'boost::dynamic_bitset<Block,Allocator> &boost::dynamic_bitset<Block,Allocator>::reset(void)': member function already defined or declared
+  c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(87): note: see declaration of 'boost::dynamic_bitset<Block,Allocator>::reset'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(89): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(90): error C2535: 'boost::dynamic_bitset<Block,Allocator> &boost::dynamic_bitset<Block,Allocator>::flip(void)': member function already defined or declared
+  c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(89): note: see declaration of 'boost::dynamic_bitset<Block,Allocator>::flip'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(91): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(92): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(97): error C3646: 'count': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(97): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(97): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(99): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(99): error C2805: binary 'operator [' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(100): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(100): error C2805: binary 'operator [' has too few parameters
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(104): error C3646: 'size': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(104): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(104): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(105): error C3646: 'num_blocks': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(105): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(105): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(106): error C3646: 'max_size': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(106): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(106): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(108): error C3646: 'capacity': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(108): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(108): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(109): error C2061: syntax error: identifier 'size_type'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(116): error C3646: 'find_first': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(116): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(116): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(117): error C3646: 'find_next': unknown override specifier
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(117): error C2059: syntax error: '('
+c:\users\marci\source\repos\protokol_binarny\klient\klient\dynamic_bitset.cpp(117): error C2238: unexpected token(s) preceding ';'
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(55): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(86): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(186): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(200): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(214): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(228): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(242): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(256): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(274): warning C4804: '>': unsafe use of type 'bool' in operation
+  Generating Code...
