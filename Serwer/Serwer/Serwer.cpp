@@ -14,15 +14,6 @@ char komunikat[] = "\0";
 void bitsToChar(std::bitset<8>bits);
 int main()
 {
-
-
-	std::string s = a.to_string();
-	const char * c = s.c_str();
-	strcat_s(komunikat, sizeof komunikat, c);
-	std::cout << komunikat;
-
-
-	std::cin.get();
 	WSADATA wsaData;
 
 	if (WSAStartup(MAKEWORD(1, 1), &wsaData) != 0)
@@ -71,11 +62,14 @@ int main()
 			continue;
 		}
 		printf("server: got connection from %s\n", inet_ntoa(theirAddr.sin_addr));
+		
+		
 		int numbytes;
 		char buf[100];
 		while (1)
 		{
-			numbytes = recv(new_fd, buf, 100 - 1, 0);
+			std::cin >> buf;
+			numbytes = send(new_fd, buf, 100 - 1, 0);
 			buf[numbytes] = '\0';
 			printf("Received: %s\n", buf);
 		}
