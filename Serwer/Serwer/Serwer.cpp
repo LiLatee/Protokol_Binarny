@@ -9,9 +9,11 @@
 #define BACK_LOG 10     //jak du¿o mo¿e byæ oczekuj¹cych po³¹czeñ w kolejce
 #define MAXDATASIZE 100 
 
+int nextID = 1;
 char komunikat[] = "\0";
 
 void bitsToChar(std::bitset<8>bits);
+std::string decimalToBinary(int liczba);
 int main()
 {
 	WSADATA wsaData;
@@ -22,7 +24,7 @@ int main()
 		exit(1);
 	}
 
-
+	int iResult;
 
 	int sockfd; //deskryptor gniazda
 	if ((sockfd = socket(PF_INET, SOCK_STREAM, 0)) == -1)
@@ -54,7 +56,7 @@ int main()
 	//datagram
 	char *bufor = "\0";//(char*)malloc(65535);
 	while (1)
-	{
+	{;
 		sin_size = sizeof(struct sockaddr_in);
 		if ((new_fd = accept(sockfd, (struct sockaddr*)&theirAddr, &sin_size)) == -1)
 		{
@@ -62,18 +64,27 @@ int main()
 			continue;
 		}
 		printf("server: got connection from %s\n", inet_ntoa(theirAddr.sin_addr));
+		//nadanie ID klientowi
+		std::string nextIDS;
+		int sizeID = decimalToBinary(nextID).size();
+		std::cout << "przed2\n";
+		while (sizeID++ < 3)  nextIDS += "0";
+		nextIDS += decimalToBinary(nextID++);
 		
+		std::string ID_message = "0000000" + nextIDS + "00000000000000000000000000000000";
+		std::bitset<42> byte(ID_message);
+		std::string a = byte.to_string();
+		const char * c = a.c_str();
 		
-		int numbytes;
-		char buf[100];
-		while (1)
+		iResult = send(new_fd, c, strlen(c), 0);
+		if(iResult < 0)
 		{
-			std::cin >> buf;
-			numbytes = send(new_fd, buf, 100 - 1, 0);
-			buf[numbytes] = '\0';
-			printf("Received: %s\n", buf);
+			perror("send ID");
 		}
+		std::cout << iResult;
+
 		
+		std::cin.get();
 		closesocket(new_fd);
 	}
 }
@@ -92,4 +103,18 @@ void bitsToChar(std::bitset<8>bits)
 	std::string s = bits.to_string();
 	const char * c = s.c_str();
 	strcat_s(komunikat, sizeof komunikat, c);
+}
+std::string decimalToBinary(int liczba)
+{
+	/*std::stringstream a(liczba);
+	int liczbaInt;
+	a >> liczbaInt;*/
+
+	if (liczba == 0) return "0";
+	if (liczba == 1) return "1";
+
+	if (liczba % 2 == 0)
+		return decimalToBinary(liczba / 2) + "0";
+	else
+		return decimalToBinary(liczba / 2) + "1";
 }

@@ -1,11 +1,11 @@
 ﻿  Klient.cpp
 c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(38): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
 c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(37): warning C4101: 'new_fd': unreferenced local variable
-c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(204): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(218): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(232): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(246): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(260): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(274): warning C4804: '>': unsafe use of type 'bool' in operation
-c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(292): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(173): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(187): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(201): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(215): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(229): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(243): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\marci\source\repos\protokol_binarny\klient\klient\klient.cpp(261): warning C4804: '>': unsafe use of type 'bool' in operation
   Klient.vcxproj -> C:\Users\marci\Source\Repos\Protokol_Binarny\Klient\x64\Debug\Klient.exe

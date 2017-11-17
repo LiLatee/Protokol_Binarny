@@ -1,4 +1,6 @@
 ﻿  Serwer.cpp
-c:\users\marci\source\repos\protokol_binarny\serwer\serwer\serwer.cpp(28): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
-c:\users\marci\source\repos\protokol_binarny\serwer\serwer\serwer.cpp(59): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+c:\users\marci\source\repos\protokol_binarny\serwer\serwer\serwer.cpp(30): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+c:\users\marci\source\repos\protokol_binarny\serwer\serwer\serwer.cpp(61): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+c:\users\marci\source\repos\protokol_binarny\serwer\serwer\serwer.cpp(69): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\marci\source\repos\protokol_binarny\serwer\serwer\serwer.cpp(79): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Serwer.vcxproj -> C:\Users\marci\Source\Repos\Protokol_Binarny\Serwer\x64\Debug\Serwer.exe
