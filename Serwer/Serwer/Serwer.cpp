@@ -97,7 +97,7 @@ void modulo();
 void rownosc();
 void potegowanie();
 void pierwiastkowanie();
-
+//nowy branch marcin
 void bitsToChar(std::bitset<8>bits)
 {
 	std::string s = bits.to_string();
